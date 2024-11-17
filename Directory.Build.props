@@ -1,0 +1,9 @@
+<Project>
+    <ItemGroup>
+        <Using Alias="NamedTuple" Include="(bool isUsed, string value)" />
+        <Using Alias="NamedTupleList" Include="System.Collections.Generic.List&lt;(int one, int two)&gt;" />
+        
+        <Using Alias="NamedTupleWithNullables" Include="(bool isUsed, string key, string? value)" />
+        <Using Alias="NamedTupleWithNullablesList" Include="System.Collections.Generic.List&lt;(bool isUsed, string key, string? value)&gt;" />
+    </ItemGroup>
+</Project>
